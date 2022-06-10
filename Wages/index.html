@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate wages</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <!--Form-->
+    <form method="get">
+        <fieldset>
+            <legend>Calculate wages</legend>
+            <p>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+            </p>
+
+            <p>
+                <label for="hours">Hours worked:</label>
+                <input type="number" id="hours" name="hours">
+            </p>
+        </fieldset>
+        <button type="button" id="calculate">Calculate</button>
+    </form>
+
+    <p id="output"></p>
+    <script src="Scripts/main.js"></script>
+</body>
+</html>
